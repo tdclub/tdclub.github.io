@@ -924,16 +924,16 @@ a:focus {
 
 .main-nav-one .logo-box {
   width: 100%;
-  max-width: 281px;
+  max-width: 145px;
   background-color: #fff;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.03);
   position: absolute;
   top: 80%;
-  left: 50%;
+  left: 53%;
   -webkit-transform: translate(-59%, calc(-40% + 25px));
   transform: translate(-59%, calc(-40% + 25px));
   text-align: center;
-  padding: 26.5px 0;
+  padding: 10.5px 0;
   border-bottom: 10px solid var(--thm-primary);
   z-index: 10;
 }
@@ -1742,7 +1742,8 @@ a:focus {
  ## Footer Bottom 
  --------------------------------------------------------------*/
 
-.site-footer__bottom a {
+.site-footer__bottom a,
+.site-footer__bottom .info-box {
   display: block;
   background-color: #023069;
   text-align: center;
@@ -1763,14 +1764,16 @@ a:focus {
   transition: all 500ms ease;
 }
 
-.site-footer__bottom a:hover {
+.site-footer__bottom a:hover,
+.site-footer__bottom .info-box:hover {
   background-color: var(--thm-primary);
   color: var(--thm-black);
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
 }
 
-.site-footer__bottom a i {
+.site-footer__bottom a i,
+.site-footer__bottom .info-box i {
   width: 36px;
   height: 36px;
   background-color: var(--thm-primary);
@@ -1787,7 +1790,8 @@ a:focus {
   transition: all 500ms ease;
 }
 
-.site-footer__bottom a:hover i {
+.site-footer__bottom a:hover i,
+.site-footer__bottom .info-box:hover i {
   color: #fff;
   background-color: var(--thm-black);
 }
