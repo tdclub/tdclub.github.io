@@ -3976,6 +3976,7 @@ a:focus {
 }
 
 .course-one__content {
+  width: 100%;
   text-align: center;
   background-color: #edf2f5;
   padding-top: 53px;
