@@ -4218,8 +4218,8 @@ a:focus {
   color: #063a7a;
   font-family: var(--thm-font);
   text-transform: uppercase;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 15px;
 }
 
 .course-details__content p {
@@ -4227,7 +4227,7 @@ a:focus {
 }
 
 .course-details__content p + p {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .course-details__btn {
@@ -4257,8 +4257,8 @@ a:focus {
   background-color: var(--thm-primary);
   padding-left: 60px;
   padding-right: 60px;
-  padding-top: 48.5px;
-  padding-bottom: 48.5px;
+  padding-top: 61.5px;
+  padding-bottom: 61.5px;
 }
 
 .course-details__infos::before {
@@ -4311,7 +4311,7 @@ a:focus {
   justify-content: center;
   -webkit-box-flex: 1;
   flex: 1 1 33.333%;
-  max-width: 33.333%;
+  max-width: 100%;
   position: relative;
 }
 
@@ -4330,7 +4330,7 @@ a:focus {
 }
 
 .course-details__infos-single span {
-  font-size: 50px;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1em;
   color: var(--thm-black);
